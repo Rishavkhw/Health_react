@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-       <footer className="bg-zinc-500 text-white py-3">
+       <footer className="bg-zinc-600 text-white py-3">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
    
         <div>
@@ -13,7 +13,7 @@ function Footer() {
           <p>Email: contact@clinic.com</p>
         </div>
 
-        <div>-
+        <div>
           <h3 className="text-xl font-semibold">Quick Links</h3>
           <ul className='pb-2'>
             <li><a href="/" className="hover:text-blue-300">Home</a></li>
